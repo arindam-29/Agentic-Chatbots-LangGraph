@@ -32,7 +32,7 @@ def load_langgraph_agenticai_app():
                 st.error("Error: LLM Model could not be initialized")
                 return
             
-            usecass=user_input.get("selected_usecast")
+            usecass=user_input.get("selected_usecase")
             if not usecass:
                 st.error("Error: No use case selected")
                 return
